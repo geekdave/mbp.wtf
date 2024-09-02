@@ -2245,7 +2245,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 13pt;
+				font-size: 14pt;
 			}
 
 	}
@@ -2257,7 +2257,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 12pt;
+				font-size: 14pt;
 			}
 
 			h2 br, h3 br, h4 br, h5 br, h6 br {
@@ -2550,7 +2550,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 11pt;
+				font-size: 14pt;
 			}
 
 			h2, h3, h4, h5, h6 {
