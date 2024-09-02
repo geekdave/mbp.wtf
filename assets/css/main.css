@@ -100,7 +100,7 @@ input, select, textarea {
 	body, input, textarea, select {
 		font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-weight: 300;
-		color: #777;
+		color: #626262;
 		line-height: 1.65em;
 		font-size: 16pt;
 	}
@@ -108,7 +108,7 @@ input, select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 600;
 		text-transform: uppercase;
-		color: #888;
+		color: #3a3a3a;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1657,7 +1657,7 @@ input, select, textarea {
 	form label {
 		font-weight: 600;
 		text-transform: uppercase;
-		color: #888;
+		color: #3a3a3a;
 		display: block;
 		margin: 0 0 1em 0;
 	}
@@ -1930,7 +1930,7 @@ input, select, textarea {
 		#header p {
 			text-transform: uppercase;
 			font-weight: 400;
-			color: #888;
+			color: #3a3a3a;
 			margin: 2.5em 0 0 0;
 			font-size: 0.85em;
 			letter-spacing: 3px;
@@ -1961,7 +1961,7 @@ input, select, textarea {
 				text-decoration: none;
 				text-transform: uppercase;
 				font-weight: 400;
-				color: #777;
+				color: #626262;
 				outline: 0;
 				display: block;
 			}
@@ -2460,7 +2460,7 @@ input, select, textarea {
 				border-right: solid 2px #3c3c3c;
 				font-weight: 400;
 				text-transform: uppercase;
-				color: #888;
+				color: #3a3a3a;
 				letter-spacing: 2px;
 				font-size: 0.85em;
 			}
@@ -2724,4 +2724,28 @@ input, select, textarea {
 		font-size: 2em; /* Adjust this value to make the letters twice as large */
 		text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.3); /* Adds a subtle shadow for depth */
 		font-weight: bold;   		
+	  }
+
+
+	  .demo-wrap {
+		position: relative;
+	  }
+	  
+	  .demo-wrap:before {
+		content: ' ';
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0.2;
+		background-image: url('../../images/bg.jpeg');
+		background-repeat: no-repeat;
+		background-position: 50% 0;
+		background-size: cover;
+	  }
+	  
+	  .demo-content {
+		position: relative;
 	  }
